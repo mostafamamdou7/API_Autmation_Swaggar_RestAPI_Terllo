@@ -1,0 +1,277 @@
+{
+	"id": "f3e0244a-0810-4df4-ae26-adda2de52db5",
+	"name": "Swagger Practicing",
+	"timestamp": "2022-09-07T15:11:22.788Z",
+	"collection_id": "21510481-c59579c9-7b18-49c2-998c-fd91b72b01a1",
+	"folder_id": 0,
+	"environment_id": "21510481-c8f18bbb-c30e-4415-8ac5-bff904f55ce6",
+	"totalPass": 13,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "a776aa8a-5f49-4cd0-8b3f-c5e3ab26563b",
+			"name": "All of Authors",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Responce for successful HTTP request 200 ok": true,
+				"check objects inside response Body": true,
+				"Check Responce Size": true,
+				"check response headers": true,
+				"check response headers contain json data": true
+			},
+			"testPassFailCounts": {
+				"Responce for successful HTTP request 200 ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check objects inside response Body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check Responce Size": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check response headers": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check response headers contain json data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Responce for successful HTTP request 200 ok": true,
+					"check objects inside response Body": true,
+					"Check Responce Size": true,
+					"check response headers": true,
+					"check response headers contain json data": true
+				}
+			]
+		},
+		{
+			"id": "a7fda001-0e40-43d9-b011-fc3917b61970",
+			"name": "Invalid Author",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/0",
+			"time": 98,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"response 404 Not Found": true
+			},
+			"testPassFailCounts": {
+				"response 404 Not Found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"response 404 Not Found": true
+				}
+			]
+		},
+		{
+			"id": "9286b3c4-9ddb-489f-a829-b6acea3598ff",
+			"name": "Author's idBook",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/authors/books/2",
+			"time": 105,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Searching with valid idBook": true
+			},
+			"testPassFailCounts": {
+				"Searching with valid idBook": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				105
+			],
+			"allTests": [
+				{
+					"Searching with valid idBook": true
+				}
+			]
+		},
+		{
+			"id": "8b0d28e8-7fff-429f-8a13-ac254ec8cbd0",
+			"name": "Author's ID",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/1",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Responce for successful HTTP request 200 ok": true,
+				"The author's data is changed in GET request": false
+			},
+			"testPassFailCounts": {
+				"Responce for successful HTTP request 200 ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The author's data is changed in GET request": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				102
+			],
+			"allTests": [
+				{
+					"Responce for successful HTTP request 200 ok": true,
+					"The author's data is changed in GET request": false
+				}
+			]
+		},
+		{
+			"id": "224fd3fc-ccf5-4b3b-8017-8398d0c495a2",
+			"name": "Add New Author",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response code 200 ok": true,
+				"response Body contains firstname & lastname": true
+			},
+			"testPassFailCounts": {
+				"response code 200 ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response Body contains firstname & lastname": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"response code 200 ok": true,
+					"response Body contains firstname & lastname": true
+				}
+			]
+		},
+		{
+			"id": "2d749ddb-c5a8-4e16-8003-b4e5b1292a4b",
+			"name": "Edit Author (Firstname, Lastname)",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/2",
+			"time": 104,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Responce for successful HTTP request 200 ok": true,
+				"Author's data in response is updated successfully": true
+			},
+			"testPassFailCounts": {
+				"Responce for successful HTTP request 200 ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Author's data in response is updated successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				104
+			],
+			"allTests": [
+				{
+					"Responce for successful HTTP request 200 ok": true,
+					"Author's data in response is updated successfully": true
+				}
+			]
+		},
+		{
+			"id": "a4d5f95d-bab0-45de-9e92-a04769052c5b",
+			"name": "Delete Author",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/2",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Responce for successful HTTP request 200 ok": true
+			},
+			"testPassFailCounts": {
+				"Responce for successful HTTP request 200 ok": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				107
+			],
+			"allTests": [
+				{
+					"Responce for successful HTTP request 200 ok": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 775,
+	"collection": {
+		"requests": [
+			{
+				"id": "a776aa8a-5f49-4cd0-8b3f-c5e3ab26563b",
+				"method": "GET"
+			},
+			{
+				"id": "a7fda001-0e40-43d9-b011-fc3917b61970",
+				"method": "GET"
+			},
+			{
+				"id": "9286b3c4-9ddb-489f-a829-b6acea3598ff",
+				"method": "GET"
+			},
+			{
+				"id": "8b0d28e8-7fff-429f-8a13-ac254ec8cbd0",
+				"method": "GET"
+			},
+			{
+				"id": "224fd3fc-ccf5-4b3b-8017-8398d0c495a2",
+				"method": "POST"
+			},
+			{
+				"id": "2d749ddb-c5a8-4e16-8003-b4e5b1292a4b",
+				"method": "PUT"
+			},
+			{
+				"id": "a4d5f95d-bab0-45de-9e92-a04769052c5b",
+				"method": "DELETE"
+			}
+		]
+	}
+}

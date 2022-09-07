@@ -1,0 +1,84 @@
+{
+	"id": "5befcdaa-61c3-4851-87d8-33fb13c9a736",
+	"values": [
+		{
+			"key": "key",
+			"value": "1d7d04e54f1a1461ddeb2fccb88cffdd",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "4017d3eef2a7d745efd5da95fc6190bb85d9be9de6a060bdd69c3cfbec0766a4",
+			"enabled": true
+		},
+		{
+			"key": "BaseURL",
+			"value": "https://api.trello.com",
+			"enabled": true
+		},
+		{
+			"key": "FirstBoardID",
+			"value": "62a4d2f14bf5c167e238b830",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "LastBoardID",
+			"value": "6317880d9f97e502ad86cb49",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "boardID",
+			"value": "6317e3824ad0c3012e059146",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "FirstListID",
+			"value": "6317e4d079b3d104fd9c8f31",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "LastListID",
+			"value": "6317e3824ad0c3012e05914f",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ListID",
+			"value": "6317e3824ad0c3012e05914f",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Key",
+			"value": "1d7d04e54f1a1461ddeb2fccb88cffdd",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Token",
+			"value": "4017d3eef2a7d745efd5da95fc6190bb85d9be9de6a060bdd69c3cfbec0766a4",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Name",
+			"value": "Mostafa Mamdouh",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "URI",
+			"value": "https://api.trello.com/1",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-09-07T15:07:23.820Z",
+	"_postman_exported_using": "Postman/9.30.3"
+}
