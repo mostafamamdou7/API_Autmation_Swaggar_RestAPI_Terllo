@@ -1,0 +1,139 @@
+Boards
+{
+    "id": "629feec787f32f20af0d6fac",
+    "aaId": "629feec55b9785006fd63cbf",
+    "activityBlocked": false,
+    "avatarHash": "17efbbf7da20b07fe4b78d14ae6f8825",
+    "avatarUrl": "https://trello-members.s3.amazonaws.com/629feec787f32f20af0d6fac/17efbbf7da20b07fe4b78d14ae6f8825",
+    "bio": "",
+    "bioData": null,
+    "confirmed": true,
+    "fullName": "mostafamamdou7",
+    "idEnterprise": null,
+    "idEnterprisesDeactivated": [],
+    "idMemberReferrer": null,
+    "idPremOrgsAdmin": [],
+    "initials": "M",
+    "memberType": "normal",
+    "nonPublic": {},
+    "nonPublicAvailable": true,
+    "products": [],
+    "url": "https://trello.com/mostafa4187",
+    "username": "mostafa4187",
+    "status": "disconnected",
+    "aaBlockSyncUntil": null,
+    "aaEmail": null,
+    "aaEnrolledDate": null,
+    "avatarSource": "none",
+    "credentialsRemovedCount": 0,
+    "domainClaimed": null,
+    "email": "mostafa4187@student.ohins.edu.eg",
+    "goldSunsetFreeTrialIdOrganization": null,
+    "gravatarHash": "670933ddbaf5b3540a102aac1d67c700",
+    "idBoards": [
+        "62a4d2f14bf5c167e238b830",
+        "6317e2e7975b1a011eb879d9",
+        "6317e3824ad0c3012e059146",
+        "631da6252fa0fd02ecd54753"
+    ],
+    "idOrganizations": [
+        "62a4bfdea5fc487c0557f957"
+    ],
+    "idEnterprisesAdmin": [],
+    "limits": {
+        "boards": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 4500,
+                "warnAt": 3600
+            }
+        },
+        "orgs": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 850,
+                "warnAt": 680
+            }
+        }
+    },
+    "loginTypes": [
+        "atlassian"
+    ],
+    "marketingOptIn": {
+        "optedIn": true,
+        "date": "2022-06-12T03:15:03.898Z"
+    },
+    "messagesDismissed": [
+        {
+            "_id": "62a55a05ccf60679e8fa95bf",
+            "name": "ad-logged-in-public-board-62a4d2f14bf5c167e238b830",
+            "count": 2,
+            "lastDismissed": "2022-09-03T15:55:37.882Z"
+        },
+        {
+            "_id": "6317881aa3f68f01971c04f5",
+            "name": "ad-logged-in-public-board-6317880d9f97e502ad86cb49",
+            "count": 1,
+            "lastDismissed": "2022-09-06T17:49:14.375Z"
+        }
+    ],
+    "oneTimeMessagesDismissed": [
+        "sent-possible-new-signup-event",
+        "close-menu-of-first-board",
+        "62a4bfdea5fc487c0557f957-memberHomeScreenPromptFull"
+    ],
+    "prefs": {
+        "privacy": {
+            "fullName": "public",
+            "avatar": "public"
+        },
+        "sendSummaries": true,
+        "minutesBetweenSummaries": 60,
+        "minutesBeforeDeadlineToNotify": 1440,
+        "colorBlind": false,
+        "locale": "en-US"
+    },
+    "trophies": [],
+    "uploadedAvatarHash": null,
+    "uploadedAvatarUrl": null,
+    "premiumFeatures": [
+        "additionalBoardBackgrounds",
+        "additionalStickers",
+        "customBoardBackgrounds",
+        "customEmoji",
+        "customStickers",
+        "plugins"
+    ],
+    "isAaMastered": true,
+    "ixUpdate": "116",
+    "boards": [
+        {
+            "id": "62a4d2f14bf5c167e238b830",
+            "name": "My Udacity project",
+            "closed": false,
+            "idOrganization": "62a4bfdea5fc487c0557f957",
+            "pinned": false
+        },
+        {
+            "id": "6317e2e7975b1a011eb879d9",
+            "name": "Project 2",
+            "closed": false,
+            "idOrganization": "62a4bfdea5fc487c0557f957",
+            "pinned": false
+        },
+        {
+            "id": "6317e3824ad0c3012e059146",
+            "name": "Rest_API_Project",
+            "closed": false,
+            "idOrganization": "62a4bfdea5fc487c0557f957",
+            "pinned": false
+        },
+        {
+            "id": "631da6252fa0fd02ecd54753",
+            "name": "Rest_API_Project",
+            "closed": false,
+            "idOrganization": "62a4bfdea5fc487c0557f957",
+            "pinned": false
+        }
+    ]
+}
